@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>公司</title>
+
+    <script src="/common/lib/jquery/jquery-3.3.1.js"></script>
+
+    <!-- 引用Bootstrap组件-->
+    <script src="/common/lib/boostrap/js/bootstrap.js"></script>
+    <script src="/common/lib/bootstrap-table/bootstrap-table.js"></script>
+    <script src="/common/lib/bootstrap-table/locale/bootstrap-table-zh-CN.js"></script>
+    <link rel="stylesheet" href="/common/lib/boostrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/common/lib/boostrap/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="/common/lib/bootstrap-table/bootstrap-table.min.css">
+
+    <!-- 引用layui组件-->
+    <script src="/common/lib/layui/layui.js"></script>
+    <link rel="stylesheet" href="/common/lib/layui/css/layui.css">
+</head>
+<body>
+<div class="layui-fluid weadmin-body">
+    <form class="layui-form" action="">
+        <div class="layui-form-item clearfix">
+            <div class="layui-input-inline">
+                <input type="text" id="compname" placeholder="请输入公司名称" autocomplete="off" class="layui-input" >
+            </div>
+
+            <div class="layui-input-inline">
+                <button class="layui-btn" data-type="reload" type="button" ><i class="layui-icon">&#xe615;</i>查询</button>
+                <button class="layui-btn" type="reset"><i class="layui-icon">&#xe00A;</i>重置</button>
+            </div>
+            <div class="fr">
+                <button type="button" class="layui-btn" id="add"
+                        ><i class="layui-icon">&#xe654;</i>新增</button>
+            </div>
+        </div>
+    </form>
+    <table id="CompanyTable" ></table>
+</div>
+<script src="js/company.js"></script>
+</body>
+</html>
+

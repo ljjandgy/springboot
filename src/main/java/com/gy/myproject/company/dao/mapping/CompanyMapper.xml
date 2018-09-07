@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="com.gy.myproject.company.dao.CompanyMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.gy.myproject.company.model.Company">
+        <result column="COMPID" property="compid" />
+        <result column="COMPNAME" property="compname" />
+        <result column="ADRESS" property="adress" />
+        <result column="TEL" property="tel" />
+        <result column="EMAIL" property="email" />
+        <result column="BOSS" property="boss" />
+        <result column="BANDNUMBER" property="bandnumber" />
+    </resultMap>
+
+</mapper>
