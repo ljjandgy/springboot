@@ -6,9 +6,8 @@ package com.gy.myproject.common;
  */
 public class Common {
     //操作成功提示
-    public static String SUCCESS_INFO = "successful";
+    public static final String SUCCESS_INFO = "successful";
     //操作失败提示
-    public static String FAILURE_INFO = "unsuccessful";
-    //提交提示
+    public static final String FAILURE_INFO = "unsuccessful";
 
 }
